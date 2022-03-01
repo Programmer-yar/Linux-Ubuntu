@@ -1,0 +1,9 @@
+SSH
+
+=> ssh to a server:
+	- ssh <user_name>@<ip_address>
+
+=> Copy files to remote server:
+	- scp -r <directory_name> <user_name>@<ip_address>:<location_on_remote_server>
+
+

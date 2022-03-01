@@ -1,0 +1,5 @@
+vlc
+gimp
+gparted
+synaptic
+ubuntu-restricted-extras

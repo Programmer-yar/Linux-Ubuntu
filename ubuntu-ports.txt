@@ -1,0 +1,9 @@
+- Display all ports in use:
+	- sudo lsof -i -P -n
+	- sudo lsof -i -P -n | grep LISTEN
+	
+- close a port used by a process:
+	sudo kill -9 `sudo lsof -t -i:<port_number>`
+	
+- check port over server:
+	- telnet smtp.gmail.com 587

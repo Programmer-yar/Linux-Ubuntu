@@ -1,0 +1,31 @@
+- Open a file:
+  vim <file_name>
+  - file opens in normal mode
+  - press "esc" key to go to normal mode (see at bottom left)
+  - press "i" to enter insert mode (status a bottom left)
+
+- Normal Mode:
+  - Only allows reading and navigation
+  - enter ":q!" to exit out of editor and closing file
+
+- Insert Mode:
+  - allows full editing
+  - enter ":wq" to save changes and exit 
+
+- Navigation:
+  - press "esc" to make sure you are in normal mode
+  -  ":<line_number>" to go to any specified line
+  -  ":$" to go to last line
+
+- Editing shortcuts:
+  - "dd" delete cursor line
+  - "u" undo 
+  - "v" for higlighting text
+  - "y" copies high lighted text
+  - "p" pastes text (in normal mode)
+  - "x!" for saving changes and closing files after pasting
+
+- Search for keywords:
+  - ":/<search_word>" in Normal Mode
+  - "n" for navigating among search results
+  

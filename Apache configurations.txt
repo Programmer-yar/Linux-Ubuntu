@@ -1,0 +1,15 @@
+Apache configurations for Ubuntu:
+_________________________________
+Run below commands as admin or use sudo command in start of each line:
+
+=> Install:
+	- sudo apt install apache2
+
+=> common apache commands: 
+	- /etc/init.d/apache2 start (start server)
+	- /etc/init.d/apache2 status (check server status)
+	- /etc/init.d/apache2 restart (restart apache server)
+
+=> accessing apache2 error log:
+	- sudo vim /var/log/apache2/error.log
+	

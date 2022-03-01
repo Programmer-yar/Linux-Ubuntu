@@ -1,0 +1,21 @@
+-> list all groups
+   - "groups"
+- 7 -> r,w,x
+  6 -> r,w
+  5 -> r,x
+  4 -> r
+  
+  
+-> Change permissions:
+	User Permissions:
+	- sudo chmod <permission_code> <file/folder_name>
+	- sudo chmod -R <permission_code> <file/folder_name>
+	example:
+	- sudo chmod -R 775 test_directory
+	
+	Permission Group:
+	- sudo chown :<group_name> <file/folder_name>
+	- sudo chown -R :<group_name> <file/folder_name>
+	example:
+	- sudo chown :www-data test_directory
+	

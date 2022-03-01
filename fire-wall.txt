@@ -1,0 +1,21 @@
+=============== UFW ====================
+Uncomplicated Fire Wall
+
+-> Status:
+	- sudo ufw status
+
+-> App List:
+	- sudo ufw app list
+
+-> Setup FireWall:
+	=> Add firewall rules:
+	- sudo ufw default allow outgoing
+	- sudo ufw default deny incoming
+	- sudo ufw allow ssh
+	- sudo ufw allow <port_number> (allow specific ports)
+	
+-> Activate FireWall:
+	- sudo ufw enable
+	(Remember to add rules before activationg firewall)
+	
+	

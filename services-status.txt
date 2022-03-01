@@ -1,0 +1,12 @@
+=> Check installed service status:
+	- sudo systemctl status <service_name>
+	- Example:
+	  sudo systemctl status apache2
+
+=> Enable/Disable services on startup:
+	- sudo systemctl enable <service_name>
+	- sudo systemctl disable <service_name>
+	
+=> Stop/Start service:
+	- sudo systemctl start <service_name>
+	- sudo systemctl stop <service_name>

@@ -1,0 +1,13 @@
+- Install packages
+  sudo apt-get install apache2
+
+- check installed package version
+  <package_name> -v
+  apache2 -v
+ 
+- Package location
+   which <package_name>
+   which apache2
+
+- Check if apache os running
+  sudo service apache2 status
