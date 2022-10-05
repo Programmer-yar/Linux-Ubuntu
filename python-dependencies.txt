@@ -1,0 +1,5 @@
+- Following packages need to be installed for installing and building wheels:
+	sudo apt install python3-dev default-libmysqlclient-dev build-essential libpq-dev
+	
+	(libpq-dev related to postgresql)
+	
